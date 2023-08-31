@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?size=626&ext=jpg&ga=GA1.2.605303615.1672038074&semt=ais">
+
+  <title>Akshay web business</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index1.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+
+  
+  <div style="padding: 1rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <img src="data:image/png;base64,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" width="50%" class="img5">
+    </div>
+    <div >
+      <button type="button" class="btn first">Wellcome</button>
+    </div>
+  </div>
+  
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="font1">Hello ! Guys I Am Akshay SIngh Naruka</div>
+      </div>
+    </div>
+    <div class="row">
+      <div style="text-align:-webkit-center;">
+        <div class="h4 mt-3 font2">Wellcome to my web page and thank for visit my web page. Are you intrusted this type web page for add our instagram website option . So connect with me on instagram on id <span style="font-weight: bold; color: hotpink;">@kr_akki_rajput.</span> 
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div style="text-align: center;">
+        <button type="button" class="btn second ">Follow on my Instagram account</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row mt-5 mb-5">
+        <div class="col-12">
+          <div class="mt-5">
+            <img src="images/Screenshot (1).png" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;">
+        <div class="mt-5">
+          <div><img src="images/icon-communities.svg"></div>
+          <div><span style="font-size: 60px; font-weight: bold;">1.4k+</span><br>
+            Communities Formed
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;">
+        <div class="mt-5">
+          <div><img src="images/icon-messages.svg"></div>
+          <div><span style="font-size: 60px; font-weight: bold;">2.7m+</span><br>
+            Messages Sent
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="container-fluid">
+    <div class="row"> -->
+      <div>
+        <img src="images/bg-section-top-desktop-1.svg" width="100%">
+      </div>
+    <!-- </div>
+  </div> -->
+
+  <div class="container-fluid" style="background-color: #f6fbff;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div style="margin-top: 144px;">
+            <h2>My Formal dressup!</h2>
+            <p> Clothes and manners do not make the man; but when he is made, they greatly improve his appearance.
+              The boor covers himself, the rich man or the fool adorns himself, and the elegant man gets dressed</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/IMG_20230803_162230.jpg"  class="img11">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-5">
+    <img src="images/bg-section-bottom-desktop-1.svg" width="100%">
+  </div>
+
+
+  <div class="container-fluid" >
+    <div class="container mb-5">
+      <div class="row mt-5">
+        <div class="col-lg-6">
+          <img src="images/SKS_9141-01.jpeg" width="60%">
+        </div>
+        <div class="col-lg-6">
+          <div class="mar1">
+            <h2>My Royal rajwadi look as Rajput </h2>
+            <p>A Rajput never surrenders, for honor is more precious than life itself.Pride in our heritage fuels our spirits, and honor is our guiding principle.With the spirit of a warrior and the heart of a lion, a Rajput never backs down.Pride courses through our veins; it is the essence of being a Rajput..
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+      <div class="mt-5">
+        <img src="images/bg-section-top-desktop-2.svg" width="100%">
+      </div>
+
+  <div class="container-fluid" style="background-color: #f6fbff;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div style="margin-top: 144px;">
+            <h2>I Am Always smart</h2>
+            <p>There is no such thing as a perfect person, but someone’s heart can have a perfect intention.I am handsome, no matter what they say. Words can’t bring me down.Life is short. Live it up and live it in the moment..</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/IMG_20230813_151706_633.jpg" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-5">
+    <img src="images/bg-section-bottom-desktop-2.svg" width="100%">
+  </div>
+
+
+  <div class="container-fluid mt-5 mb-5">
+    <div class="row">
+      <div class="col-12">
+        <div class="h1" style="text-align: center;font-weight: bold;">Ready To Build Your Web Page from me?</div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div style="text-align: center;">
+        <button type="button" class="btn second ">Get Started in 100 rupees</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5">
+    <img src="images/bg-footer-top-desktop.svg" width="100%">
+  </div>
+
+
+  <div class="container-fluid " style="background-color: #00252e;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mt-5">
+          <div  style="color:white">
+            <div style="display: flex;"><img src="images/icon-messages.svg"><h2>Akshay</h2></div>
+            <div class="col-lg-7 mt-3">For any order and enquary dm me on my instagram account @kr_akki_rajput & whats app Message on my number.</div>
+              <div class="mt-3"><img src="images/icon-phone.svg">Phone: +91 8963807435</div>
+                <div class="mt-3"><img src="images/icon-email.svg">sikarwalabanna@gmail.com.com</div>
+          </div>
+          <div style="color:white;" class="mt-4 mb-5">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 mt-5">
+          <div style="color: white;">
+            <h2>Thank You!</h2>
+            <div class="col-lg-8 mt-3">For visit on my web page and i think you give me order for make a new web page like this page for you in only 100 rupees</div>
+          </div>
+          <div style="display: flex;" class="mt-3 mb-5">
+            <div style="border: 1px solid white ; height: 40px; width: 260px; margin-right: 20px; background-color: white; border-radius: 5px;"><span style="font-weight: bold; color: hotpink;">@kr_akki_rajput.</span> </div>
+            <!-- <button type="button" class="btn third ">Subscribe</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <footer>
+    <!-- <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Akshay Singh Naruka</a>.
+    </p> -->
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
